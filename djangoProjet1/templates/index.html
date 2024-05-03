@@ -1,0 +1,30 @@
+{% extends "Base.html" %}
+
+{% block content%}
+<style>
+   .jumbotron {
+      border: 1px solid color(beige); 
+      height: 40vh;
+      background-color: rgb(247, 247, 243);
+      box-shadow: beige;
+    }
+    .container{
+      text-align: center;
+      margin-top: 15vh;
+    }
+    .display-4 {
+      position: relative;
+      top: 10vh; 
+    }
+    .lead {
+      position: relative;
+      top: 10vh;  
+    }
+</style>
+<div class="jumbotron jumbotron-fluid mt-5">
+    <div class="container">
+      <h1 class="display-4">Gestion de Tontine</h1>
+      <p class="lead">C'est l'application parfaite pour faire de la tontine et de bien gérer l'argent des personnes.</p>
+    </div>
+  </div>
+{% endblock%}
